@@ -7,17 +7,17 @@ import Data from "./Data"
 import "./style.css"
 
 function App() {
-//   const flowers = Data.map((ele, index) => {
-//     return (
-//       <Flowers
-//       name={ele.name}
-//       img={ele.image}
-//       price={ele.price}
-//       tags={ele.tags}
-//       key={index}
-//       />
-//     );
-// });
+  const flowers = Data.map((ele, index) => {
+    return (
+      <Flowers
+      name={ele.name}
+      image={ele.image}
+      price={ele.price}
+      tags={ele.tags}
+      key={index}
+      />
+    );
+});
 //    console.log('this is Flowers', flowers)
   
   
@@ -28,8 +28,9 @@ function App() {
     <div>
       <Nav />
       <Header />
-      <Flowers img={Data[0].image} />
-
+      <div className='flower-container'>
+      {flowers}
+      </div>
 
     </div>
   );
