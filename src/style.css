@@ -1,5 +1,5 @@
 body {
-    background-color: aquamarine;
+    background-color: whitesmoke;
 }
 
 .nav-container {
@@ -28,20 +28,69 @@ a {
 
 .flowers-img {
     flex-direction: row;
-    background-position: bottom 10px;
-    padding: 20px;
+   
+    padding: 30px;
     width: 300px;
+    box-shadow: 1px 1px 1px 1px #cac4c7;
+    margin: 9px 8px; 
+    
 }
 .info {
-    margin-top: -39px;
-    width: 88%;
-    margin-left: 20PX;
-    background-color:  white;
+    margin-top: -9px;
+    width: 95%;
+    margin-left: 10PX;
+    color: #9dc1c3;
+    /* background-color: white; */
  }
 
 .price {
-    margin-left: 250px;
-    margin-top: -30px
+    margin-left: 300px;
     
+    margin-top: -50px;
+    background-color: pink;
+    color: white;
     
+}
+
+.footer {
+    display: flex;
+    background-color: #ece9e9;
+    height: 200px;
+    margin-top: 40px;
+    
+   
+}
+
+.footer-img {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 400px;
+   
+}
+
+.name {
+    display: flex;
+
+}
+
+.footer-text1 {
+    margin-top: 10px;
+    margin-left: 50px;
+
+}
+
+.footer-text2 {
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+h3 {
+ color: #a1d6d4;
+}
+
+h4 {
+    margin-top: 130px;
+    margin-left: -110px;
+    color: #f4aec0;
 }

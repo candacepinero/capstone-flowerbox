@@ -4,6 +4,7 @@ import Nav from "./components/Nav"
 import Header from "./components/Header"
 import Flowers from "./components/Flowers"
 import Data from "./Data"
+import Footer from "./components/Footer"
 import "./style.css"
 
 function App() {
@@ -31,7 +32,7 @@ function App() {
       <div className='flower-container'>
       {flowers}
       </div>
-
+      <Footer />
     </div>
   );
 }
