@@ -29,7 +29,7 @@ a {
 .flowers-img {
     flex-direction: row;
    
-    padding: 30px;
+    
     width: 300px;
     box-shadow: 1px 1px 1px 1px #cac4c7;
     margin: 9px 8px; 
@@ -44,7 +44,7 @@ a {
  }
 
 .price {
-    margin-left: 300px;
+    margin-left: 200px;
     
     margin-top: -50px;
     background-color: pink;
