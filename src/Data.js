@@ -1,4 +1,4 @@
-export default  [
+let Data =  [
 	{
 		name: 'forgive-me-pleases',
 		image: 'https://i.imgur.com/0UCzcZM.jpg',
@@ -53,5 +53,6 @@ export default  [
 		price: 50,
 		tags: ['mixed', 'bouquet (with basket)', 'love', 'decor'],
 	},
-]
+];
 
+export default Data;
