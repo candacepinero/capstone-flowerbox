@@ -1,6 +1,7 @@
-
+import { Container } from "@mui/material";
 const Footer = () => {
     return (
+        <Container>
        <div className="footer">
            <img className="footer-img" src="https://i.imgur.com/KxfWH9J.png"></img>
            
@@ -24,6 +25,7 @@ const Footer = () => {
            
            
        </div>
+       </Container>
     );
 }
 

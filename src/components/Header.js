@@ -1,9 +1,10 @@
-
+import { Container } from "@mui/material";
 const Header = () => {
     return (
-        <div className="img-container">
+        <Container>
             <img className="banner-img" src="https://i.imgur.com/BrtVHqy.png"></img>
-        </div>
+        </Container>
+        
     );
 }
 
