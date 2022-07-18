@@ -1,10 +1,9 @@
-import { Link } from "react-router-dom";
 import Data from "../Data"
 import { ImageList, ImageListItem, ImageListItemBar } from "@mui/material";
 import Container from "@mui/material/Container";
 import IconButton from '@mui/material/IconButton';
 import InfoIcon from '@mui/icons-material/Info';
-import LocalOfferIcon from '@mui/icons-material/LocalOffer';
+
 
 
 
@@ -17,8 +16,6 @@ const Home = () => {
                 {Data.map((flower) => {
                     const { name, price, tags, image } = flower
                     return (
-
-
                         <ImageListItem key={image}>
                             <img src={image}
                                 srcSet={image}
@@ -26,6 +23,14 @@ const Home = () => {
                                 loading="lazy"
 
                             />
+                            <ImageListItemBar
+                                sx={{
+                                    background:
+                                        'linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, ' +
+                                        'rgba(0,0,0,0.3) 70%, rgba(0,0,0,0) 100%)',
+                                }}
+                                title={`$ ${price}`}
+                                position="top" />
 
                             <ImageListItemBar
 

@@ -5,6 +5,8 @@ import {
   Route,
 } from "react-router-dom";
 import App from './App';
+import Footer from './components/Footer';
+import Nav from './components/Nav';
 import About from "./routes/about"
 import Contact from './routes/contact';
 
@@ -12,11 +14,13 @@ import Contact from './routes/contact';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
  <BrowserRouter>
+ <Nav/>
    <Routes>
     <Route exact path="/" element={<App/>}/>
     <Route path="about" element={<About/>}/>
     <Route path="contact" element={<Contact/>}/>
   </Routes>
+  <Footer/>
 </BrowserRouter>
   
 );

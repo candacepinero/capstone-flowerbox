@@ -21,10 +21,10 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
     
-    <Nav/>
+   
     <Header/>
     <Home/>
-    <Footer />
+    
     
     </ThemeProvider>
   );
