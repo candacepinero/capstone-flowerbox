@@ -6,15 +6,19 @@ import {
 } from "react-router-dom";
 import App from './App';
 import Footer from './components/Footer';
+import Header from './components/Header';
 import Nav from './components/Nav';
 import About from "./routes/about"
 import Contact from './routes/contact';
 
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+ 
  <BrowserRouter>
  <Nav/>
+ <Header />
    <Routes>
     <Route exact path="/" element={<App/>}/>
     <Route path="about" element={<About/>}/>
@@ -22,6 +26,7 @@ root.render(
   </Routes>
   <Footer/>
 </BrowserRouter>
+
   
 );
 

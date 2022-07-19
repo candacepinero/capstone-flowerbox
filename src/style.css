@@ -10,7 +10,7 @@
 } */
 
 a {
-    color: aliceblue;
+    color: #f4aec0;
 }
 
 .banner-img {
@@ -61,13 +61,14 @@ a {
    
 }
 
-.footer-img {
+/* .footer-img {
     width: 100px;
     height: 100px;
-    margin-top: 20px;
+    margin-top: 60px;
     margin-left: 400px;
+    position: absolute;
    
-}
+} */
 
 .name {
     display: flex;
@@ -77,6 +78,7 @@ a {
 .footer-text1 {
     margin-top: 10px;
     margin-left: 50px;
+    position: absolute;
 
 }
 
@@ -93,4 +95,6 @@ h4 {
     margin-top: 130px;
     margin-left: -110px;
     color: #f4aec0;
+    
 }
+
