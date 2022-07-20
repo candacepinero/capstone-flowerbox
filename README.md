@@ -1,5 +1,5 @@
 # Flower Box
-This Flower Box project was created using material UI and React. Using Material UI's collection of prebuilt components, and mobile-first design, helps create a well styled responses web application.
+This Flower Box project was created using material UI and React. Material UI's collection of prebuilt components, and mobile-first design, helps create a well styled responses web application.
 
 ## Technologies used
 * React 
