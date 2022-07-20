@@ -17,7 +17,7 @@ This Flower Box project was created using material UI and React. Using Material 
 
 
 ### Getting started
-![WireFrame](Screen Shot 2022-07-20 at 1.22.43 AM.png)
+![WireFrame](https://i.imgur.com/ro0eKLO.png)
 
 [Click here to visit site](https://master--lucent-gnome-a9bdf0.netlify.app/) 
 
